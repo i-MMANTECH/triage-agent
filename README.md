@@ -1,7 +1,7 @@
 # Triage
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Built with Gemini 3](https://img.shields.io/badge/Built%20with-Gemini%203-4285F4)](https://cloud.google.com/products/gemini)
+[![Built with Gemini](https://img.shields.io/badge/Built%20with-Gemini-4285F4)](https://cloud.google.com/products/gemini)
 [![Google Cloud Agent Builder](https://img.shields.io/badge/Google%20Cloud-Agent%20Builder-4285F4)](https://cloud.google.com/products/agent-builder)
 [![Dynatrace MCP](https://img.shields.io/badge/MCP-Dynatrace-1496FF)](https://www.dynatrace.com/)
 
@@ -16,9 +16,9 @@ recovery.
 
 | Link | URL |
 |---|---|
+| Demo video (3 min) | <https://youtu.be/d-9pDGW1zUs> |
 | Devpost submission | _added before submission_ |
 | Live demo | _added after Cloud Run deploy_ |
-| Demo video (3 min) | _added before submission_ |
 | Demo scenario script | [`demo/scenarios/bad-deploy.md`](demo/scenarios/bad-deploy.md) |
 
 ## The problem
