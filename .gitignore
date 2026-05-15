@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+.pnpm-store/
+*.log
+.npm/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+service-account*.json
+secrets/
+
+# Personal developer notes — kept out of the public repo
+memory/
+MEMORY.md
+
+# Cloud
+.gcloud/
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

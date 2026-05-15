@@ -1,0 +1,18 @@
+[project]
+name = "triage-server"
+version = "0.1.0"
+description = "Triage — on-call's AI first responder. Backend service."
+readme = "../README.md"
+requires-python = ">=3.13"
+license = { text = "Apache-2.0" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
