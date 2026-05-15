@@ -23,8 +23,6 @@ out/
 .npm/
 
 # Env / secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -43,9 +41,9 @@ MEMORY.md
 .terraform.lock.hcl
 
 # IDE / OS
-.vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
 Thumbs.db
+config.bat
