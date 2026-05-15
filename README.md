@@ -16,10 +16,13 @@ recovery.
 
 | Link | URL |
 |---|---|
+| **Live demo** | **<https://triage-web-407454021889.us-central1.run.app>** |
 | Demo video (3 min) | <https://youtu.be/d-9pDGW1zUs> |
-| Devpost submission | _added before submission_ |
-| Live demo | _added after Cloud Run deploy_ |
+| Backend API | <https://triage-server-407454021889.us-central1.run.app> |
+| Devpost submission | _added on final Submit_ |
 | Demo scenario script | [`demo/scenarios/bad-deploy.md`](demo/scenarios/bad-deploy.md) |
+
+> Open the live demo and click **Seed demo incident** in the header. The agent runs the full bundled scenario against Gemini on Vertex AI in ~20 seconds — no Dynatrace tenant required.
 
 ## The problem
 
@@ -162,9 +165,9 @@ The token is stored in Secret Manager — never as a plain env var.
 - [x] Functional end-to-end agent (investigation → plan → approval → execution → verification → postmortem)
 - [x] Polished dashboard UI for the human-in-the-loop flow
 - [x] Self-contained demo scenario (no live tenant required)
-- [ ] Hosted public URL for judging (`scripts/deploy-*.ps1`)
-- [ ] 3-minute demo video on YouTube/Vimeo
-- [ ] Devpost write-up
+- [x] Hosted public URL for judging — <https://triage-web-407454021889.us-central1.run.app>
+- [x] 3-minute demo video on YouTube — <https://youtu.be/d-9pDGW1zUs>
+- [x] Devpost write-up — draft submitted (final Submit pending operator review before 2026-06-11)
 
 ## License
 
